@@ -81,7 +81,7 @@ section:not(.fullwidth) {
     display: flex;
     align-items: center;
     justify-content: center;
-    background-image: url("/img/image_background_index_type2.jpg");
+    background-image: url("/img/image_background_index.jpg");
     background-size: contain;
     background-repeat: no-repeat;
     background-position: center center ;
