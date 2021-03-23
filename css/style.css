@@ -72,7 +72,7 @@ section:not(.fullwidth) {
 }
 .logo{
     color: #282828;
-    font-weight: 800;
+    font-weight: 500;
     font-size: 2.5em;
 }
 /*-------Sectin intro-------*/
@@ -170,13 +170,13 @@ button span img{
      a.button3{
     display:block;
     margin:0.2em auto;
-     }
+     }
     }
 
  /*------work------*/
   .grid-container img{
-      max-height : 900px;
-      max-width : 900px;
+      max-height: 900px;
+      max-width: 900px;
   }
 
   .grid-container {
@@ -225,4 +225,29 @@ footer a{
     opacity: 0.5;
     letter-spacing: 0;
     font-size: 20px;
+}
+
+/* Extra small devices (phones, 600px and down) */
+@media only screen and (max-width: 600px) {
+
+}
+
+/* Small devices (portrait tablets and large phones, 600px and up) */
+@media only screen and (min-width: 600px) {
+
+}
+
+/* Medium devices (landscape tablets, 768px and up) */
+@media only screen and (min-width: 768px) {
+
+}
+
+/* Large devices (laptops/desktops, 992px and up) */
+@media only screen and (min-width: 992px) {
+    
+}
+
+/* Extra large devices (large laptops and desktops, 1200px and up) */
+@media only screen and (min-width: 1200px) {
+    
 }
