@@ -59,7 +59,7 @@ section:not(.fullwidth) {
     top: 0px;
     position: fixed ;
     width: 100vw;
-    height: 100px;
+    height: 150px;
     background-color: white;
     display: flex;
     align-items: center;
@@ -73,7 +73,7 @@ section:not(.fullwidth) {
 .logo{
     color: #282828;
     font-weight: 500;
-    font-size: 2.5em;
+    font-size: 3.5em;
 }
 /*------------------MENU_BURGER-------------------*/
 #menuToggle
@@ -224,7 +224,7 @@ section:not(.fullwidth) {
 /*------------------MENU_BURGER_END-------------------*/
 /*-------Sectin intro-------*/
 .intro {
-    margin-top: 300px;
+    margin-top: 400px;
     display: flex;
     align-items: start;
     justify-content: center;
