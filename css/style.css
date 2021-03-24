@@ -59,7 +59,7 @@ section:not(.fullwidth) {
     top: 0px;
     position: fixed ;
     width: 100vw;
-    height: 80px;
+    height: 100px;
     background-color: white;
     display: flex;
     align-items: center;
@@ -77,14 +77,15 @@ section:not(.fullwidth) {
 }
 /*-------Sectin intro-------*/
 .intro {
-    margin-top: 80px;
+    margin-top: 150px;
     display: flex;
-    align-items: center;
+    align-items: start;
     justify-content: center;
     background-image: url("../img/image_background_index.jpg");
     background-size: contain;
     background-repeat: no-repeat;
-    background-position: center center ;
+    background-position: center 100% ;
+    height: 600px;
     min-height: 400px;
 }
 .intro-content{
@@ -210,6 +211,9 @@ button span img{
   /*------contact------*/
 .work h3{
     margin-bottom: 80px;
+}
+.Mail{
+    margin-top: 50px;
 }
  /*------footer------*/
 footer{
