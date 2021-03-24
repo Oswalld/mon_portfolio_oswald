@@ -195,7 +195,7 @@ section:not(.fullwidth) {
   padding: 100px;
   padding-top: 125px;
   
-  background: #ededed;
+  background: #f0f0f0;
   list-style-type: none;
   -webkit-font-smoothing: antialiased;
   /* to stop flickering of text in safari */
@@ -208,8 +208,10 @@ section:not(.fullwidth) {
 
 #menu li
 {
-  padding: 30px 50px;
-  font-size: 3em;
+  padding: 30px 100px;
+  font-size: 5em;
+  font-weight: 700;
+  color: #282828;
 }
 
 /*
