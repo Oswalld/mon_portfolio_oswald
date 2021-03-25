@@ -282,6 +282,9 @@ margin-top: 100px;
 .contact b{
     font-size: 4em;
 }
+.contact b:hover{
+    color:rgb(207, 74, 129);
+}
 .contact-icon a:hover{
     fill: rgb(223, 160, 186);
 }
