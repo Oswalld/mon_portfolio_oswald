@@ -73,19 +73,22 @@ section:not(.fullwidth) {
 .logo{
     color: #282828;
     font-weight: 500;
-    font-size: 3.5em;
+    font-size: 4em;
 }
 /*------------------MENU_BURGER-------------------*/
 .ham {
     /* keep the hamburger button above everything */
     z-index: 100;
-    width: 3rem;
-    height: 3rem;
+    width: 5rem;
+    height: 5rem;
     border: black solid 1px;
     background: white;
     cursor: pointer;
   }
-  
+  .material-icons{
+      font-size: 50px;
+      font-weight: 100;
+  }
   .xIcon {
     display: none;
   }
@@ -104,19 +107,24 @@ section:not(.fullwidth) {
     transition: transform 0.2s;
     list-style: none;
     padding-top: 4rem;
-  }
+    -webkit-transition: transform 0.2s;
+    -moz-transition: transform 0.2s;
+    -ms-transition: transform 0.2s;
+    -o-transition: transform 0.2s;
+}
   
   .showMenu {
     transform: translateY(0);
   }
   
   li {
-    padding: 1rem 0 0 2em;
+    padding: 2rem 0 ;
+    text-align: center;
   }
   
   .menuLink {
     display: inline;
-    font-size: 2rem;
+    font-size: 5rem;
     color: white;
     text-decoration: none;
   }
@@ -143,17 +151,17 @@ section:not(.fullwidth) {
     text-align: center;
 }
 .intro-content h1{
-    font-size: 4em;
+    font-size: 6em;
     font-weight: 700;
 }
 .intro-content h2{
-    font-size: 3em;
+    font-size: 4em;
     color: rgb(110, 110, 110);
 }
 
 .arrow{
     position: absolute;
-    margin-top: 28%;
+    margin-top: 40%;
     left: 50%;
     transform: translate(-50%,-50%);
 }
