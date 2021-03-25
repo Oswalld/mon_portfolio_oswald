@@ -299,6 +299,7 @@ footer a{
 }
 footer a:hover{
     color: rgb(223, 160, 186) ;
+    cursor: pointer;
 }
 /* Extra small devices (phones, 600px and down) */
 @media only screen and (max-width: 600px) {
