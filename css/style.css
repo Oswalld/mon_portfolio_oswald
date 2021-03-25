@@ -81,9 +81,10 @@ section:not(.fullwidth) {
     z-index: 100;
     width: 5rem;
     height: 5rem;
-    border: black solid 1px;
+    border: #282828 solid 1px;
     background: white;
     cursor: pointer;
+    color: #282828;
   }
   .material-icons{
       font-size: 60px;
@@ -95,6 +96,7 @@ section:not(.fullwidth) {
   }
   .xIcon {
     display: none;
+    color: white;
   }
   
   .menu {
