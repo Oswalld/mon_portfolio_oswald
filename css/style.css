@@ -228,7 +228,7 @@ margin-top: 100px;
     -ms-border-radius: 2em;
     -o-border-radius: 2em;
 }
-.button-about span img{
+.button-about span svg{
     margin-left: 10px;
     width: 40px;
 }
@@ -412,7 +412,7 @@ footer a:hover{
         font-size: 1.5em;
         padding:0.5em 0.7em 0.5em 0.7em;
     }
-    .button-about span img{
+    .button-about span svg{
         width: 20px;
         margin-left: 2px;
     }
