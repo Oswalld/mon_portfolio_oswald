@@ -4,6 +4,7 @@
   <meta charset="utf-8">
   <title>Oswald Chartrain</title>
   <link rel="icon" href="img/logo_blanc.png" />
+  <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
   <link href='http://fonts.googleapis.com/css?family=Lato:400,700' rel='stylesheet' type='text/css'>
   <link rel="stylesheet" href="css/style.css">
   <script src="script.js"></script>
@@ -19,20 +20,21 @@
             <a href="#contact">Contact</a>
         </nav>
         -->
-        <nav role="navigation">
-            <div id="menuToggle">
-              <input type="checkbox" />
-                <span></span>
-                <span></span>
-                <span></span>
-              <ul id="menu">
-                <a href="#intro"><li>Home</li></a>
-                <a href="#about"><li>About</li></a>
-                <a href="#work"><li>Work</li></a>
-                <a href="#contact"><li>Contact</li></a>
-              </ul>
-            </div>
-          </nav>
+        <button class="ham">
+            <!-- material icons https://material.io/resources/icons/ -->
+            <span class="menuIcon material-icons">
+              menu
+            </span>
+            <span class="xIcon material-icons">
+              close
+            </span>
+          </button>
+          <ul class="menu">
+            <li><a class="menuLink" href="#intro">Home</a></li>
+            <li><a class="menuLink" href="#about">About</a></li>
+            <li><a class="menuLink" href="#work">Work</a></li>
+            <li><a class="menuLink" href="#contact">Contacts</a></li>
+          </ul>
     </header>
 
     <main>
@@ -68,7 +70,7 @@
                     <div>
                         <b>HTML CSS</b>
                     </div>
-                    <button> <span> CV  <img src="img/download.svg" alt=""> </span> </button>
+                    <button class="button-about"> <span> CV  <img src="img/download.svg" alt=""> </span> </button>
                 </div>
         </section>
         <section id="work" class="work">
