@@ -265,6 +265,9 @@ margin-top: 100px;
 .Mail{
     margin-top: 50px;
 }
+.contact b{
+    font-size: 4em;
+}
  /*------footer------*/
 footer{
     padding-top: 40px;
