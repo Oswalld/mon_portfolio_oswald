@@ -10,7 +10,7 @@
   <script src="script.js"></script>
 </head>
 <body>
-   
+   <!----------------------Header---------------------->
     <header class="site-header">
         <a class="logo" href="#intro">Oswald Chartrain</a>
 
@@ -22,7 +22,6 @@
 
         <div class="menu-burger">
         <button class="ham">
-            <!-- material icons https://material.io/resources/icons/ -->
             <span class="menuIcon material-icons">
               menu
             </span>
@@ -38,6 +37,8 @@
           </ul>
         </div>
     </header>
+    <!----------------------Header END---------------------->
+    <!----------------------Script burger---------------------->
 <script>
     var menu = document.querySelector(".menu")
     var ham = document.querySelector(".ham")
@@ -67,6 +68,8 @@
         menuLink.addEventListener("click", toggleMenu)
       }
     )</script>
+    <!----------------------Script burger END---------------------->
+    <!----------------------Heroe---------------------->
     <main>
         <section id="intro" class="intro fullwidth">
             <div class="intro-content">
@@ -81,6 +84,8 @@
             </a>
             </div>
         </section>
+        <!----------------------Heroe END---------------------->
+        <!----------------------About---------------------->
         <section id="about" class="about">
             <h3>About</h3>
             <div class="description">
@@ -103,12 +108,14 @@
                     <button class="button-about"> <span> CV  <img src="img/download.svg" alt=""> </span> </button>
                 </div>
         </section>
+        <!----------------------About END---------------------->
+        <!----------------------Work---------------------->
         <section id="work" class="work">
             <div>
                 <h3>My Works</h3>
                 <div class="grid-container">
                     <div class="affiches">
-                        <a href=""><img src="img/affiche.jpg" alt=""></a>
+                        <a href="#work"><img src="img/affiche.jpg" alt=""></a>
                     </div>
                     <div class="la-galerie">
                         <a href=""><img src="img/la_galerie.jpg" alt=""></a>
@@ -134,6 +141,8 @@
                   </div>
                 </div>
         </section>
+        <!----------------------Work END---------------------->
+        <!----------------------Contact---------------------->
         <section id="contact" class="contact">
             <h3>Contact</h3>
             <div>
@@ -144,9 +153,12 @@
                 <b>oswald.chtr@gmail.com</b>
             </div>
         </section>
+        <!----------------------Contact END---------------------->
     </main>
+    <!----------------------Footer---------------------->
     <footer>
         <a>© 2020-2021 Oswald Chartrain. All Rights Reserved.</a>
     </footer>
+    <!----------------------Footer END---------------------->
 </body>
 </html>
