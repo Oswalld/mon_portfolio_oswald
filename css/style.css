@@ -297,6 +297,9 @@ footer a{
     letter-spacing: 0;
     font-size: 20px;
 }
+footer a:hover{
+    color: rgb(223, 160, 186) ;
+}
 /* Extra small devices (phones, 600px and down) */
 @media only screen and (max-width: 600px) {
     .header-nav{
