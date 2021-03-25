@@ -67,8 +67,12 @@ section:not(.fullwidth) {
     box-shadow: 0px 0px 5px 0px rgba(0,0,0,0.65);
 }
 .header-nav a{
+    font-size: 1.5em;
     color: #282828;
     margin-right: 30px;
+}
+.header-nav a:hover{
+    color: #999;
 }
 .logo{
     color: #282828;
@@ -210,26 +214,26 @@ margin-top: 100px;
 
 /* -----button about----- */
 .button-about{
-    overflow: visible;
+    letter-spacing: 3px;
     cursor: pointer;
     font-size: 3em;
-    display:inline-block;
     padding:0.5em 1em 0.5em 1em;
     margin:50px 1em 1em 0;
-    border-radius:2em;
-    box-sizing: border-box;
     color:#FFFFFF;
     background-color:#282828;
     text-align:center;
-    transition: all 0.2s;
-    -webkit-border-radius:2em;
-    -moz-border-radius:2em;
-    -ms-border-radius:2em;
-    -o-border-radius:2em;
+    border-radius: 2em;
+    -webkit-border-radius: 2em;
+    -moz-border-radius: 2em;
+    -ms-border-radius: 2em;
+    -o-border-radius: 2em;
 }
 .button-about span img{
     margin-left: 10px;
     width: 40px;
+}
+.button-about:hover{
+    background-color:black;
 }
 
  /*------work------*/
@@ -291,15 +295,18 @@ footer a{
     letter-spacing: 0;
     font-size: 20px;
 }
-
 /* Extra small devices (phones, 600px and down) */
 @media only screen and (max-width: 600px) {
-
+    .header-nav{
+        display: none;
+    }
 }
 
 /* Small devices (portrait tablets and large phones, 600px and up) */
 @media only screen and (min-width: 600px) {
-
+ .header-nav{
+        display: none;
+    }
 }
 
 /* Medium devices (landscape tablets, 768px and up) */
@@ -307,12 +314,103 @@ footer a{
 
 }
 
+
+
+
+
+
+
+
 /* Large devices (laptops/desktops, 992px and up) */
 @media only screen and (min-width: 992px) {
+    .menu-burger{
+        display: none;
+    }
+    .header-nav{
+        display:block;
+    }
+    .site-header{
+        height: 100px;
+    }
+    .logo{
+        font-size: 3em;
+    }
+    .grid-container img{
+        max-height: 400px;
+        max-width: 400px;
+    }
+    .grid-container {
+      grid-template-columns: 400px 400px;
+      grid-template-rows: 400px 400px 400px 400px;
+      grid-template-areas:
+        "modelisation-3d flat-design"
+        "design-random infographie"
+        "stak la-galerie"
+        "skin-osu affiches";
+    }
+    .intro {
+        margin-top: 200px;
+        align-items: center;
+        background-image: url("../img/image_background_index_type2.jpg");
+        background-position: center center ;
+        height: 500px;
+    }
+    .br{
+        display: none;
+    }
+    .intro-content h1{
+        font-size: 4.8em;
+    }
+    .intro-content h2{
+        font-size: 3.5em;
+    }
+    h3{
+        margin-left: -3rem;
+        font-size: 6em;
+    }
+    h4{
+        font-size: 3.5em;
+    }
+    h5{
+        font-size: 2.5em;
+    }
     
+    p{
+        font-size: 1.5em;
+    }
+    b{
+        font-size: 1.3em;
+        line-height: 1.8em;
+    }
+    .button-about{
+        font-size: 1.5em;
+        padding:0.5em 0.7em 0.5em 0.7em;
+    }
+    .button-about span img{
+        width: 20px;
+        margin-left: 2px;
+    }
+    .contact b{
+        font-size: 2.5em;
+    }
 }
+
+
+
+
+
+
+
+
 
 /* Extra large devices (large laptops and desktops, 1200px and up) */
 @media only screen and (min-width: 1200px) {
-    
+    .grid-container {
+      grid-template-columns: 400px 400px 400px;
+      grid-template-rows: 400px 400px 400px 400px;
+      grid-template-areas:
+        "modelisation-3d flat-design design-random"
+        "infographie stak la-galerie"
+        "skin-osu affiches .";
+    }
 }
