@@ -282,6 +282,13 @@ margin-top: 100px;
 .contact b{
     font-size: 4em;
 }
+.contact-icon a:hover{
+    fill: rgb(223, 160, 186);
+}
+.contact-icon svg{
+    margin-right: 10px;
+    height: 6em;
+}
  /*------footer------*/
 footer{
     padding-top: 40px;
@@ -430,6 +437,9 @@ footer a:hover{
     }
     h3{
         margin-left: -10rem;
+    }
+    .contact-icon svg{
+        height: 3em;
     }
 }
 /* Extra large devices (large laptops and desktops, 1200px and up) */
