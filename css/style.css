@@ -248,12 +248,12 @@ margin-top: 100px;
       max-width: 900px;
   }
 
-  .grid-container {
+  .grid-container-work {
       margin-top: 150px;
       justify-content: center;
     display: grid;
     grid-template-columns: 900px;
-    grid-template-rows: 900px 900px 900px 900px;
+    grid-template-rows: 900px;
     gap: 2px 2px;
     grid-template-areas:
       "modelisation-3d"
@@ -318,6 +318,7 @@ footer a:hover{
     color: rgb(223, 160, 186) ;
     cursor: pointer;
 }
+/*------------------------------------------------contact------------------------------------------------*/
 
 
 
@@ -374,7 +375,7 @@ footer a:hover{
         max-height: 400px;
         max-width: 400px;
     }
-    .grid-container {
+    .grid-container-work {
       grid-template-columns: 400px 400px;
       grid-template-rows: 400px 400px 400px 400px;
       grid-template-areas:
