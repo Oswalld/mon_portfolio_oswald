@@ -323,8 +323,17 @@ footer a:hover{
     text-align: center;
     margin-left: 0;
 }
+.work-zoom a{
+    color: rgb(223, 160, 186);
+}
+.work-zoom a:hover{
+    color:rgb(207, 74, 129) ;
+}
 .work-zoom img{
-width: 400px;
+    height: 400px;
+    width: 400px;
+    object-fit: cover; 
+    object-position: center;
 }
 .work-zoom p{
     text-align: center;
@@ -342,7 +351,7 @@ width: 400px;
   .grid-container-affiche {
     display: grid;
     grid-template-columns: 400px 400px;
-    grid-template-rows: 1fr 1fr;
+    grid-template-rows: 400px;
     gap: 1px 1px;
     grid-template-areas:
       "affiche1 affiche2"
@@ -353,6 +362,85 @@ width: 400px;
   .affiche3 { grid-area: affiche3; }
   .affiche4 { grid-area: affiche4; }
 
+  .grid-container-flatdesign {
+    display: grid;
+    grid-template-columns: 400px 400px;
+    grid-template-rows: 400px;
+    gap: 1px 1px;
+    grid-template-areas:
+      "logo-glace logo-glace-sprinkle"
+      "paysage wotherspoon";
+  }
+  .logo-glace { grid-area: logo-glace; }
+  .logo-glace-sprinkle { grid-area: logo-glace-sprinkle; }
+  .paysage { grid-area: paysage; }
+  .wotherspoon { grid-area: wotherspoon; }
+
+  .grid-container-randomdesign {
+    display: grid;
+    grid-template-columns: 400px 400px;
+    grid-template-rows: 400px;
+    gap: 1px 1px;
+    grid-template-areas:
+      "pizza vague-noir"
+      "fond-yato fond-yato"
+      "vague-1 vague-2";
+  }
+  .pizza { grid-area: pizza; }
+  .vague-noir { grid-area: vague-noir; }
+  .fond-yato { grid-area: fond-yato; }
+  .vague-1 { grid-area: vague-1; }
+  .vague-2 { grid-area: vague-2; }
+
+  .grid-container-osu {
+    display: grid;
+    grid-template-columns: 400px 400px;
+    grid-template-rows: 400px;
+    gap: 1px 1px;
+    grid-template-areas:
+      "osu1 osu2"
+      "osu3 osu4"
+      "osu5 osu6"
+      "osu7 .";
+  }
+  .osu1 { grid-area: osu1; }
+  .osu2 { grid-area: osu2; }
+  .osu3 { grid-area: osu3; }
+  .osu4 { grid-area: osu4; }
+  .osu5 { grid-area: osu5; }
+  .osu6 { grid-area: osu6; }
+  .osu7 { grid-area: osu7; }
+
+  .grid-container-info {
+    display: grid;
+    grid-template-columns: 400px 400px;
+    grid-template-rows: 1fr;
+    gap: 1px 1px;
+    grid-template-areas:
+      "info1 info2";
+  }
+  .info1 { grid-area: info1; }
+  .info2 { grid-area: info2; }
+
+  .grid-container {
+    display: grid;
+    grid-template-columns: 400px 400px;
+    grid-template-rows: 400px;
+    gap: 1px 1px;
+    grid-template-areas:
+      "stak8 stak2"
+      "stak3 stak4"
+      "stak5 stak6"
+      "stak7 stak1";
+  }
+  .stak1 { grid-area: stak1; }
+  .stak2 { grid-area: stak2; }
+  .stak3 { grid-area: stak3; }
+  .stak4 { grid-area: stak4; }
+  .stak5 { grid-area: stak5; }
+  .stak6 { grid-area: stak6; }
+  .stak7 { grid-area: stak7; }
+  .stak8 { grid-area: stak8; }
 
 
 
