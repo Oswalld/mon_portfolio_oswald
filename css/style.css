@@ -243,7 +243,7 @@ margin-top: 100px;
 }
 
  /*------work------*/
-  .grid-container img{
+  .grid-container-work img{
       max-height: 900px;
       max-width: 900px;
   }
@@ -371,7 +371,7 @@ footer a:hover{
     .logo{
         font-size: 3em;
     }
-    .grid-container img{
+    .grid-container-work img{
         max-height: 400px;
         max-width: 400px;
     }
