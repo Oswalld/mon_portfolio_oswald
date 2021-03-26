@@ -319,7 +319,40 @@ footer a:hover{
     cursor: pointer;
 }
 /*------------------------------------------------contact------------------------------------------------*/
-
+/*------------------------------------------------Work-pages------------------------------------------------*/
+.title-work{
+    text-align: center;
+    margin-left: 0;
+}
+.work-zoom img{
+width: 400px;
+}
+.work-zoom p{
+    text-align: center;
+    margin-bottom: 100px;
+}
+.grid-container-conception3d {
+    display: grid;
+    grid-template-columns: 400px 400px;
+    grid-template-rows: 400px;
+    gap: 1px 1px;
+    grid-template-areas:
+      "donuts .";
+  }
+  .donuts { grid-area: donuts; }
+  .grid-container-affiche {
+    display: grid;
+    grid-template-columns: 400px 400px;
+    grid-template-rows: 1fr 1fr;
+    gap: 1px 1px;
+    grid-template-areas:
+      "affiche1 affiche2"
+      "affiche3 affiche4";
+  }
+  .affiche1 { grid-area: affiche1; }
+  .affiche2 { grid-area: affiche2; }
+  .affiche3 { grid-area: affiche3; }
+  .affiche4 { grid-area: affiche4; }
 
 
 
