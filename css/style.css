@@ -274,7 +274,7 @@ margin-top: 100px;
   .flat-design { grid-area: flat-design; }
   .modelisation-3d { grid-area: modelisation-3d;}
 
-  .grid-container a:hover{
+  .grid-container-work a:hover{
     opacity: 60%;
 }
 
