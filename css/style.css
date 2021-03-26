@@ -233,7 +233,7 @@ margin-top: 100px;
     width: 40px;
 }
 .button-about:hover{
-    background-image: linear-gradient(90deg, #00C0FF 0%, #FFCF00 49%, #FC4F4F 80%, #00C0FF 100%);
+    background-image: linear-gradient(90deg, #00C0FF 0%, #FFCF00 60%, #FC4F4F 80%, #00C0FF 100%);
    animation:slidebg 5s linear infinite;
 }
 @keyframes slidebg {
