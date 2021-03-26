@@ -1,0 +1,70 @@
+<!doctype html>
+<html lang="fr">
+<head>
+  <meta charset="utf-8">
+  <title>Oswald Chartrain</title>
+  <link rel="icon" href="img/logo_blanc.png" />
+  <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
+  <link href='http://fonts.googleapis.com/css?family=Lato:400,700' rel='stylesheet' type='text/css'>
+  <link rel="stylesheet" href="/css/style.css">
+  <script src="script.js"></script>
+</head>
+<!----------------------Header---------------------->
+ <header class="site-header">
+    <a class="logo" href="/index.html#intro">Oswald Chartrain</a>
+
+    <nav class="header-nav">
+        <a href="/index.html#about">About</a>
+        <a href="/index.html#work">Work</a>
+        <a href="/index.html#contact">Contact</a>
+    </nav>
+
+    <div class="menu-burger">
+    <button class="ham">
+        <span class="menuIcon material-icons">
+          menu
+        </span>
+        <span class="xIcon material-icons">
+          close
+        </span>
+      </button>
+      <ul class="menu">
+        <li><span class="home-icon material-icons">home</span><a class="menuLink" href="/index.html#intro">Home</a></li>
+        <li><span class="info-icon material-icons">info</span><a class="menuLink" href="/index.html#about">About</a></li>
+        <li><span class="work-icon material-icons">work</span><a class="menuLink" href="/index.html#work">Work</a></li>
+        <li><span class="contact-icon material-icons">contact_mail</span><a class="menuLink" href="/index.html#contact">Contacts</a></li>
+      </ul>
+    </div>
+</header>
+<!----------------------Header END---------------------->
+<!----------------------Script burger---------------------->
+<script>
+var menu = document.querySelector(".menu")
+var ham = document.querySelector(".ham")
+var xIcon = document.querySelector(".xIcon")
+var menuIcon = document.querySelector(".menuIcon")
+
+ham.addEventListener("click", toggleMenu)
+
+function toggleMenu() {
+  if (menu.classList.contains("showMenu")) {
+    menu.classList.remove("showMenu");
+    xIcon.style.display = "none";
+    menuIcon.style.display = "block";
+    ham.style.background ="white"
+  } else {
+    menu.classList.add("showMenu");
+    xIcon.style.display = "block";
+    ham.style.background ="#282828"
+    menuIcon.style.display = "none";
+  }
+}
+
+var menuLinks = document.querySelectorAll(".menuLink")
+
+menuLinks.forEach(
+  function (menuLink) {
+    menuLink.addEventListener("click", toggleMenu)
+  }
+)</script>
+<!----------------------Script burger END---------------------->
