@@ -347,7 +347,7 @@ width: 400px;
     gap: 1px 1px;
     grid-template-areas:
       "affiche1 affiche2"
-      "affiche3 affiche4";
+      "affiche3 .";
   }
   .affiche1 { grid-area: affiche1; }
   .affiche2 { grid-area: affiche2; }
