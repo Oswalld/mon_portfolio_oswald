@@ -273,8 +273,14 @@ margin-top: 100px;
   .flat-design { grid-area: flat-design; }
   .modelisation-3d { grid-area: modelisation-3d;}
 
+  .grid-container-work div:hover{
+    background-color: Black;
+    z-index:6;
+  }
+
   .grid-container-work a:hover{
-    opacity: 60%;
+      z-index: 5;
+    opacity: 50%;
 }
 
 
