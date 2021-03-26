@@ -113,13 +113,13 @@ section:not(.fullwidth) {
     background:#282828;
     color: white;
     transform: translateY(-100%);
-    transition: transform 1s;
+    transition: transform 0.5s;
     list-style: none;
     padding-top: 20%;
-    -webkit-transition: transform 1s;
-    -moz-transition: transform 1s;
-    -ms-transition: transform 1s;
-    -o-transition: transform 1s;
+    -webkit-transition: transform 0.5s;
+    -moz-transition: transform 0.5s;
+    -ms-transition: transform 0.5s;
+    -o-transition: transform 0.5s;
 }
   
   .showMenu {
@@ -384,7 +384,8 @@ footer a:hover{
     grid-template-areas:
       "pizza vague-noir"
       "fond-yato fond-yato"
-      "vague-1 vague-2";
+      "vague-1 vague-1"
+      "vague-2 vague-2";
   }
   .pizza { grid-area: pizza; }
   .vague-noir { grid-area: vague-noir; }
