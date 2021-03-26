@@ -448,7 +448,7 @@ footer a:hover{
     .arrow{
         margin-top: 22rem;
     }
-    .grid-container {
+    .grid-container-work {
       grid-template-columns: 400px 400px 400px;
       grid-template-rows: 400px 400px 400px;
       grid-template-areas:
