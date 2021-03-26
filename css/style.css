@@ -318,6 +318,15 @@ footer a:hover{
     color: rgb(223, 160, 186) ;
     cursor: pointer;
 }
+
+
+
+
+
+
+
+
+
 /* Extra small devices (phones, 600px and down) */
 @media only screen and (max-width: 600px) {
     .header-nav{
@@ -432,6 +441,7 @@ footer a:hover{
 /* Extra large devices (large laptops and desktops, 1200px and up) */
 @media only screen and (min-width: 1200px) {
     .intro {
+        margin-top: 120px;
         height: 600px;
     }
     .arrow{
