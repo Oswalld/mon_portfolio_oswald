@@ -336,7 +336,7 @@ footer a:hover{
     color:rgb(207, 74, 129) ;
 }
 .work-zoom img{
-    height: 400px;
+    height: auto;
     width: 400px;
     object-fit: cover; 
     object-position: center;
@@ -347,8 +347,8 @@ footer a:hover{
 }
 .grid-container-conception3d {
     display: grid;
-    grid-template-columns: 400px 400px;
-    grid-template-rows: 400px;
+    grid-template-columns: 1fr 1fr;
+    grid-template-rows: 1fr;
     gap: 1px 1px;
     grid-template-areas:
       "donuts .";
@@ -356,8 +356,8 @@ footer a:hover{
   .donuts { grid-area: donuts; }
   .grid-container-affiche {
     display: grid;
-    grid-template-columns: 400px 400px;
-    grid-template-rows: 400px;
+    grid-template-columns: 1fr 1fr;
+    grid-template-rows: 1fr;
     gap: 1px 1px;
     grid-template-areas:
       "affiche1 affiche2"
@@ -370,8 +370,8 @@ footer a:hover{
 
   .grid-container-flatdesign {
     display: grid;
-    grid-template-columns: 400px 400px;
-    grid-template-rows: 400px;
+    grid-template-columns: 1fr 1fr;
+    grid-template-rows: 1fr;
     gap: 1px 1px;
     grid-template-areas:
       "logo-glace logo-glace-sprinkle"
@@ -384,14 +384,13 @@ footer a:hover{
 
   .grid-container-randomdesign {
     display: grid;
-    grid-template-columns: 400px 400px;
-    grid-template-rows: 400px;
+    grid-template-columns: 1fr 1fr;
+    grid-template-rows: 1fr;
     gap: 1px 1px;
     grid-template-areas:
       "pizza vague-noir"
       "fond-yato fond-yato"
-      "vague-1 vague-1"
-      "vague-2 vague-2";
+      "vague-1 vague-2";
   }
   .pizza { grid-area: pizza; }
   .vague-noir { grid-area: vague-noir; }
@@ -401,8 +400,8 @@ footer a:hover{
 
   .grid-container-osu {
     display: grid;
-    grid-template-columns: 400px 400px;
-    grid-template-rows: 400px;
+    grid-template-columns: 1fr 1fr;
+    grid-template-rows: 1fr;
     gap: 1px 1px;
     grid-template-areas:
       "osu1 osu2"
@@ -420,7 +419,7 @@ footer a:hover{
 
   .grid-container-info {
     display: grid;
-    grid-template-columns: 400px 400px;
+    grid-template-columns: 1fr 1fr;
     grid-template-rows: 1fr;
     gap: 1px 1px;
     grid-template-areas:
@@ -431,14 +430,14 @@ footer a:hover{
 
   .grid-container {
     display: grid;
-    grid-template-columns: 400px 400px;
-    grid-template-rows: 400px;
+    grid-template-columns: 1fr 1fr;
+    grid-template-rows: 1fr;
     gap: 1px 1px;
     grid-template-areas:
       "stak8 stak2"
       "stak3 stak4"
-      "stak5 stak6"
-      "stak7 stak1";
+      "stak5 stak1"
+      "stak7 stak6";
   }
   .stak1 { grid-area: stak1; }
   .stak2 { grid-area: stak2; }
