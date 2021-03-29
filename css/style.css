@@ -109,8 +109,6 @@ section:not(.fullwidth) {
     left: 0;
     right: 0;
     bottom: 0;
-    width: 100%;
-    height: 100vh;
     background:#282828;
     color: white;
     transform: translateY(-100%);
@@ -132,7 +130,7 @@ section:not(.fullwidth) {
     display: flex;
     align-items: center;
     padding: 2rem 0 ;
-    margin: 0 0 0 20%;
+    margin-left: 20%;
   }
   
   .menuLink {
