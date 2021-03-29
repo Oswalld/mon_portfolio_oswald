@@ -37,37 +37,6 @@
     </div>
 </header>
 <!----------------------Header END---------------------->
-<!----------------------Script burger---------------------->
-<script>
-var menu = document.querySelector(".menu")
-var ham = document.querySelector(".ham")
-var xIcon = document.querySelector(".xIcon")
-var menuIcon = document.querySelector(".menuIcon")
-
-ham.addEventListener("click", toggleMenu)
-
-function toggleMenu() {
-  if (menu.classList.contains("showMenu")) {
-    menu.classList.remove("showMenu");
-    xIcon.style.display = "none";
-    menuIcon.style.display = "block";
-    ham.style.background ="white"
-  } else {
-    menu.classList.add("showMenu");
-    xIcon.style.display = "block";
-    ham.style.background ="#282828"
-    menuIcon.style.display = "none";
-  }
-}
-
-var menuLinks = document.querySelectorAll(".menuLink")
-
-menuLinks.forEach(
-  function (menuLink) {
-    menuLink.addEventListener("click", toggleMenu)
-  }
-)</script>
-<!----------------------Script burger END---------------------->
 <section class="work-zoom">
   <h3 class="title-work">Ulule Project : Stak!</h3>
   <p>This is the first project i had to made when i arrived at Normandie Web School.
@@ -87,5 +56,6 @@ menuLinks.forEach(
 <footer>
   <a>© 2020-2021 Oswald Chartrain. All Rights Reserved.</a>
 </footer>
+<script src="/js/burger.js"></script>
 </body>
 </html>
