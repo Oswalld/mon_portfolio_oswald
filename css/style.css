@@ -88,6 +88,7 @@ section:not(.fullwidth) {
     background: white;
     cursor: pointer;
     color: #282828;
+    position: relative;
   }
   .material-icons{
       font-size: 60px;
@@ -120,6 +121,7 @@ section:not(.fullwidth) {
     -moz-transition: transform 0.5s;
     -ms-transition: transform 0.5s;
     -o-transition: transform 0.5s;
+    z-index: 99;
 }
   
   .showMenu {
