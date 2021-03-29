@@ -37,37 +37,6 @@
         </div>
     </header>
     <!----------------------Header END---------------------->
-    <!----------------------Script burger---------------------->
-<script>
-    var menu = document.querySelector(".menu")
-    var ham = document.querySelector(".ham")
-    var xIcon = document.querySelector(".xIcon")
-    var menuIcon = document.querySelector(".menuIcon")
-    
-    ham.addEventListener("click", toggleMenu)
-    
-    function toggleMenu() {
-      if (menu.classList.contains("showMenu")) {
-        menu.classList.remove("showMenu");
-        xIcon.style.display = "none";
-        menuIcon.style.display = "block";
-        ham.style.background ="white"
-      } else {
-        menu.classList.add("showMenu");
-        xIcon.style.display = "block";
-        ham.style.background ="#282828"
-        menuIcon.style.display = "none";
-      }
-    }
-    
-    var menuLinks = document.querySelectorAll(".menuLink")
-    
-    menuLinks.forEach(
-      function (menuLink) {
-        menuLink.addEventListener("click", toggleMenu)
-      }
-    )</script>
-    <!----------------------Script burger END---------------------->
     <!----------------------Heroe---------------------->
     <main>
         <section id="intro" class="intro fullwidth">
@@ -127,28 +96,28 @@
                 <h3>My Works</h3>
                 <div class="grid-container-work">
                     <div class="affiches">
-                        <a href="html/affiches.html"><img src="img/affiche.jpg" alt=""></a>
+                        <a href="works/affiches.html"><img src="img/affiche.jpg" alt=""></a>
                     </div>
                     <div class="la-galerie">
-                        <a href="html/la-galerie.html"><img src="img/la_galerie.jpg" alt=""></a>
+                        <a href="works/la-galerie.html"><img src="img/la_galerie.jpg" alt=""></a>
                     </div>
                     <div class="infographie">
-                        <a href="html/infographie.html"><img src="img/infographie.jpg" alt=""></a>
+                        <a href="works/infographie.html"><img src="img/infographie.jpg" alt=""></a>
                     </div>
                     <div class="stak">
-                        <a href="html/stak.html"><img src="img/stak.jpg" alt=""></a>
+                        <a href="works/stak.html"><img src="img/stak.jpg" alt=""></a>
                     </div>
                     <div class="skin-osu">
-                        <a href="html/skin-osu.html"><img src="img/osu.jpg" alt=""></a>
+                        <a href="works/skin-osu.html"><img src="img/osu.jpg" alt=""></a>
                     </div>
                     <div class="design-random">
-                        <a href="html/random-design.html"><img src="img/planet_pizza.gif" alt=""></a>
+                        <a href="works/random-design.html"><img src="img/planet_pizza.gif" alt=""></a>
                     </div>
                     <div class="flat-design">
-                        <a href="html/flat-design.html"><img src="img/sneaker.jpg" alt=""></a>
+                        <a href="works/flat-design.html"><img src="img/sneaker.jpg" alt=""></a>
                     </div>
                     <div class="modelisation-3d">
-                        <a href="html/conception3d.html"><img src="img/donut.jpg" alt=""></a>
+                        <a href="works/conception3d.html"><img src="img/donut.jpg" alt=""></a>
                     </div>
                   </div>
                 </div>
@@ -179,5 +148,6 @@
         <a>© 2020-2021 Oswald Chartrain. All Rights Reserved.</a>
     </footer>
     <!----------------------Footer END---------------------->
+    <script src="/js/burger.js"></script>
 </body>
 </html>
