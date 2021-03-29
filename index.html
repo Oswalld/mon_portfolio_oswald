@@ -6,6 +6,7 @@
   <link rel="icon" href="img/logo_blanc.png" />
   <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
   <link href='http://fonts.googleapis.com/css?family=Lato:400,700' rel='stylesheet' type='text/css'>
+  <link rel="stylesheet" href="https://unpkg.com/aos@next/dist/aos.css" />
   <link rel="stylesheet" href="css/style.css">
 </head>
 <body>
@@ -55,23 +56,23 @@
         <!----------------------Heroe END---------------------->
         <!----------------------About---------------------->
         <section id="about" class="about">
-            <h3>About</h3>
+            <h3 data-aos="fade-right">About</h3>
             <div class="description">
-                <h4>Who I am</h4>
-                    <p>I am a Rouen based designer. <br>
+                <h4 data-aos="fade-right">Who I am</h4>
+                    <p data-aos="fade-right">I am a Rouen based designer. <br>
                     I am currently a 1st year student at Normandie Web School. <br>
                     I am looking for a 2 months (or more) traineeship in early May.
                     </p>
                     <div>
-                        <b>autonomous organized perfectionist teamwork</b>
+                        <b data-aos="fade-right">autonomous organized perfectionist teamwork</b>
                     </div>
-                    <h5>Softwares</h5>
+                    <h5 data-aos="fade-right">Softwares</h5>
                     <div>
-                        <b>Photoshop Illustrator Indesign AfterEffects PremierePro AdobeXD Blender</b>
+                        <b data-aos="fade-right">Photoshop Illustrator Indesign AfterEffects PremierePro AdobeXD Blender</b>
                     </div>
-                    <h5>Langages</h5>
+                    <h5 data-aos="fade-right">Langages</h5>
                     <div>
-                        <b>HTML CSS</b>
+                        <b data-aos="fade-right">HTML CSS</b>
                     </div>
                     <a href="CV/CV_oswald_chartrain_stage.pdf" target="_blank" download="Oswald CV 2020">
                         <button class="button-about"> <span> CV  <svg version="1.1" id="Слой_1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px"
@@ -93,30 +94,30 @@
         <!----------------------Work---------------------->
         <section id="work" class="work">
             <div>
-                <h3>My Works</h3>
+                <h3 data-aos="fade-right">My Works</h3>
                 <div class="grid-container-work">
-                    <div class="affiches">
+                    <div data-aos="fade-up" class="affiches">
                         <a href="works/affiches.html"><img src="img/affiche.jpg" alt=""></a>
                     </div>
-                    <div class="la-galerie">
+                    <div data-aos="fade-left" class="la-galerie">
                         <a href="works/la-galerie.html"><img src="img/la_galerie.jpg" alt=""></a>
                     </div>
-                    <div class="infographie">
+                    <div data-aos="fade-right" class="infographie">
                         <a href="works/infographie.html"><img src="img/infographie.jpg" alt=""></a>
                     </div>
-                    <div class="stak">
+                    <div data-aos="zoom-in" class="stak">
                         <a href="works/stak.html"><img src="img/stak.jpg" alt=""></a>
                     </div>
-                    <div class="skin-osu">
+                    <div data-aos="fade-up-right" class="skin-osu">
                         <a href="works/skin-osu.html"><img src="img/osu.jpg" alt=""></a>
                     </div>
-                    <div class="design-random">
+                    <div data-aos="fade-down-left" class="design-random">
                         <a href="works/random-design.html"><img src="img/planet_pizza.gif" alt=""></a>
                     </div>
-                    <div class="flat-design">
+                    <div data-aos="fade-down" class="flat-design">
                         <a href="works/flat-design.html"><img src="img/sneaker.jpg" alt=""></a>
                     </div>
-                    <div class="modelisation-3d">
+                    <div data-aos="fade-down-right" class="modelisation-3d">
                         <a href="works/conception3d.html"><img src="img/donut.jpg" alt=""></a>
                     </div>
                   </div>
@@ -125,12 +126,12 @@
         <!----------------------Work END---------------------->
         <!----------------------Contact---------------------->
         <section id="contact" class="contact">
-            <h3>Contact</h3>
+            <h3 data-aos="fade-right">Contact</h3>
             <div>
-                <h4>Let's work together!</h4>
-                <p>It is by working together that we will achieve the desired result.</p>
-                <p>So do not hesitate to contact me! I want to work and learn more!</p>
-                <h4 class="Mail">Mail</h4>
+                <h4 data-aos="fade-right">Let's work together!</h4>
+                <p data-aos="fade-right">It is by working together that we will achieve the desired result.</p>
+                <p data-aos="fade-right">So do not hesitate to contact me! I want to work and learn more!</p>
+                <h4 data-aos="fade-right" class="Mail">Mail</h4>
                 <a href="mailto:oswald.chtr@gmail.com"><b>oswald.chtr@gmail.com</b></a>
             </div>
             <div class="contact-icon">
@@ -148,6 +149,10 @@
         <a>© 2020-2021 Oswald Chartrain. All Rights Reserved.</a>
     </footer>
     <!----------------------Footer END---------------------->
+    <script src="https://unpkg.com/aos@next/dist/aos.js"></script>
+  <script>
+    AOS.init();
+  </script>
     <script src="/js/burger.js"></script>
 </body>
 </html>
