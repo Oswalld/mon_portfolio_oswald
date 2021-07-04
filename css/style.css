@@ -262,7 +262,8 @@ margin-top: 100px;
       "la-galerie"
       "stak"
       "skin-osu"
-      "affiches";
+      "affiches"
+      "github";
   }
   .affiches { grid-area: affiches; }
   .la-galerie { grid-area: la-galerie; }
@@ -328,6 +329,10 @@ footer a:hover{
 .title-work{
     text-align: center;
     margin-left: 0;
+}
+.git-flex a{
+    margin-right: 3rem;
+    font-size: 2rem;
 }
 .work-zoom a{
     color: rgb(223, 160, 186);
